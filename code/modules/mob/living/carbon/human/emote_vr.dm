@@ -146,6 +146,10 @@
 			message = "lets out a hiss."
 			m_type = 2
 			playsound(loc, 'modular_citadel/sound/voice/hiss.ogg', 50, 1, -1)
+		if ("arf")
+			message = "lets out an arf."
+			m_type = 2
+			playsound(loc, 'modular_citadel/sound/voice/arf.ogg', 50, 1, -1)
 		if ("nsay")
 			nsay()
 			return TRUE
